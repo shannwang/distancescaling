@@ -1,10 +1,10 @@
 China
-US
-Germany
 France
+Germany
 Spain
-Great-Britain
+US
 California
+Great Britain
 Ontario
 Nordrhein-Westfalen
 Bayern
