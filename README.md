@@ -1,12 +1,40 @@
-# distance scaling
+# About this repository
 
-## Data
+## Author 
+Shanshan Wang\
+shanshan.wang@uni-due.de
 
-### Procedure of raw data processing
-1. Download data *.osm.bz2 from Geofabrik (https://download.geofabrik.de) 
-2. Uncompress *.osm.bz2 file as *.osm file
-3. Filter the motorway network from *.osm file and save it as *_filter_by_motorway.osm file with osmosis command line in Terminal, e.g.,\
-`
-osmosis  --read-xml region-latest.osm --tf accept-ways highway=motorway,motorway_link --tf reject-relations --used-node --write-xml region_filter_by_motorway.osm
-`
-4. Use python program coordinates.py to filter the data of coordinates (latitude and longitude) and save it as *_motorway.csv
+## Reference
+Shanshan Wang, Henrik M. Bette, Michael Schreckenberg, and Thomas Guhr. How much longer do you have to drive than the crow has to fly? arXiv Preprint: arXiv:2406.06490 (2024).
+
+## Data list
+* NRW_number			
+* networkdistance
+* NRW_region_info			
+* NRW_shuffle			
+* readme.txt
+* region_name_lists.txt
+
+## Code list
+* matlab
+  *	HellingerDistance.m
+  *	axisformat.m
+  *	distance_Germany.m
+  *	distance_NRW.m
+  *	distance_NRW_region_net.m
+  *	distance_countries.m
+  *	fully_rand_grid_net.m
+  *	fully_rand_net.m
+  *	geodistkm.m
+  *	part_rand_net_with_fraction.m
+  *	understand_distance_distribution.m	
+* python
+  * DrawMaps.ipynb
+  * NRW_motorway_network_to_NRW_region_network.ipynb
+  * calc_distance.py
+  * calc_distance_NRW_shuffle.py
+  * calc_distance_NRW_shuffle_number.py
+  * coordinates.ipynb
+  * name1_name2_for_cal_dist.txt
+* readme.txt
+
