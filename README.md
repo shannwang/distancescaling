@@ -5,7 +5,7 @@ Shanshan Wang\
 shanshan.wang@uni-due.de
 
 ## Reference
-Shanshan Wang, Henrik M. Bette, Michael Schreckenberg, and Thomas Guhr. How much longer do you have to drive than the crow has to fly? npj Complex. 1,22 (2024), DOI:10.1038/s44260-024-00023-x, Preprint: arXiv:2406.06490 (2024).
+Shanshan Wang, Henrik M. Bette, Michael Schreckenberg, and Thomas Guhr. How much longer do you have to drive than the crow has to fly? npj Complex. 1,22 (2024), DOI:[10.1038/s44260-024-00023-x](https://doi.org/10.1038/s44260-024-00023-x), Preprint: arXiv:2406.06490 (2024).
 
 ## Data list
 * readme.txt
